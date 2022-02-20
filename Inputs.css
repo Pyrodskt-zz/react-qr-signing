@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+    
+    
+}
+
+
+.form {
+    border : 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.classcode-input {
+    margin: 5px;
+}
+
+.period-input {
+    margin: 5px;
+
+}
+
+.create-session-btn {
+    margin: 5px;
+    background-color: rgb(135, 127, 127);
+    border: none;
+    border-radius: 1rem;
+    color: rgb(0, 75, 150);
+    font-weight: bold;
+    font-size: larger;
+    height: 30px;
+}
+.clock {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 100px;
+}

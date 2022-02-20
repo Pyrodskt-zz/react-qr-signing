@@ -1,4 +1,26 @@
+
+.container-qr {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .qr-code {
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 50vh;
     height: 50vh;
+}
+
+.stop-btn{
+    background-color: rgb(255, 60, 0);
+    width: 50%;
+    height: 10%;
+    border: none;
+    border-radius: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    color:whitesmoke;
+    
 }
